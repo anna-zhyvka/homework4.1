@@ -1,0 +1,88 @@
+.A{
+
+    height: 270px;
+    width: 1492px;
+    background-color: cornflowerblue;
+    margin-bottom: 10px;
+}
+.part2{
+    position: fixed;
+    display: flex;
+}
+
+.B{
+    margin-right: 10px;
+    height: 600px;
+    width: 872px;
+    background-color: cadetblue;
+}
+.F{
+    margin-top: 10px;
+    height: 880px;
+    width: 598px;
+    background-color: darkcyan;
+}
+
+.part3{
+    display: flex;
+    position: fixed
+}
+.C{
+
+    margin-top: 610px;
+    margin-right: 16px;
+    width: 280px;
+    height: 270px;
+    background-color: darkolivegreen;
+
+}
+.D{
+    margin-top: 610px;
+    margin-right: 16px;
+    width: 280px;
+    height: 270px;
+    background-color: gold;
+}
+.E{
+    margin-top: 610px;
+    width: 280px;
+    height: 270px;
+    background-color: lightcoral;
+}
+@media screen  and (min-width: 0) and (max-width: 972px)  {
+    .A{
+        width: 972px;
+        background-color: hotpink;
+    }
+    .B{
+
+        width: 972px;
+        background-color: fuchsia;
+    }
+.part2{
+    display: block;
+}
+    .F{
+
+        height: 270px;
+        width: 972px;
+        background-color: hotpink;
+        margin-bottom: 10px;
+    }
+    .C{
+        margin-top: 870px;
+        width: 290px;
+        height: 270px;
+
+    }
+    .D{
+        margin-top: 870px;
+        width: 290px;
+        height: 270px;
+    }
+    .E{
+        margin-top: 870px;
+        width: 290px;
+        height: 270px;
+    }
+}
